@@ -61,7 +61,7 @@
                                             <color key="titleColor" red="0.9093822949" green="1" blue="0.62200355439999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="JSx-tC-nha" kind="show" id="5eo-wh-c5x"/>
+                                            <segue destination="JSx-tC-nha" kind="show" identifier="DirFrases" id="5eo-wh-c5x"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1k9-Tj-bib">
@@ -125,7 +125,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-546" y="3198"/>
+            <point key="canvasLocation" x="-982" y="3045"/>
         </scene>
         <!--Comida-->
         <scene sceneID="OH0-FP-6ni">
@@ -190,7 +190,7 @@
                                             <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         </state>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="show" id="qSO-Jf-3XO"/>
+                                            <segue destination="BYZ-38-t0r" kind="show" identifier="" id="qSO-Jf-3XO"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -228,9 +228,33 @@
                                             <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         </state>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="show" id="iaZ-Z7-C4c"/>
+                                            <segue destination="BYZ-38-t0r" kind="show" identifier="VolFRases" id="iaZ-Z7-C4c"/>
                                         </connections>
                                     </button>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="RXI-an-jo2">
+                                        <rect key="frame" x="17" y="28" width="338" height="582"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <prototypes>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="aVX-sG-Hx9">
+                                                <rect key="frame" x="0.0" y="28" width="338" height="44"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aVX-sG-Hx9" id="foi-Ol-eyn">
+                                                    <rect key="frame" x="0.0" y="0.0" width="338" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5eF-g5-nWp">
+                                                            <rect key="frame" x="46" y="0.0" width="81" height="44"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </tableViewCellContentView>
+                                            </tableViewCell>
+                                        </prototypes>
+                                    </tableView>
                                 </subviews>
                             </view>
                         </subviews>
@@ -288,10 +312,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7c941b4827c0ed0b910570f95d92bc25" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="orj-jN-GsO">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dc4ce4fff5c09ae8a4f2c32348f7cca9" translatesAutoresizingMaskIntoConstraints="NO" id="VMO-wo-9l9">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <rect key="contentStretch" x="0.10000000000000001" y="0.0" width="0.25" height="0.5"/>
                             </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kZ5-gF-UWq">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -363,12 +386,12 @@
         <image name="1502488317621" width="800" height="497"/>
         <image name="3778691751_0e52e00438_b" width="1024" height="768"/>
         <image name="678838862" width="497" height="612"/>
-        <image name="7c941b4827c0ed0b910570f95d92bc25" width="1384" height="1384"/>
         <image name="FBL_img_899n" width="1600" height="981"/>
         <image name="Trajes-tipicos-mexicanos" width="1920" height="1080"/>
+        <image name="dc4ce4fff5c09ae8a4f2c32348f7cca9" width="1900" height="1200"/>
         <image name="mexico-1464150_960_720" width="960" height="636"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Ldj-nR-naq"/>
+        <segue reference="iaZ-Z7-C4c"/>
     </inferredMetricsTieBreakers>
 </document>

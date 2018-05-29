@@ -14,6 +14,7 @@
 		44FC18DB20BD3B3100E558FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44FC18D920BD3B3100E558FC /* LaunchScreen.storyboard */; };
 		44FC18E620BD3B3100E558FC /* MexiRefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FC18E520BD3B3100E558FC /* MexiRefTests.swift */; };
 		44FC18F120BD3B3100E558FC /* MexiRefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FC18F020BD3B3100E558FC /* MexiRefUITests.swift */; };
+		44FC18FF20BD669600E558FC /* VCTablaFrases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FC18FE20BD669600E558FC /* VCTablaFrases.swift */; };
 		9C7D6B79FEB1461A99C2F4C6 /* Pods_MexiRefUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FDFBB90F8B6A4D15B58D36 /* Pods_MexiRefUITests.framework */; };
 		A8E39DC0E5896D58E3EE3D11 /* Pods_MexiRefTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A9F4BFF92EBB3FE4AADC1D /* Pods_MexiRefTests.framework */; };
 		FD33AA483449EB2A055FD9D1 /* Pods_MexiRef.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B80BC1B25CBD2B09439EC25 /* Pods_MexiRef.framework */; };
@@ -54,6 +55,7 @@
 		44FC18EC20BD3B3100E558FC /* MexiRefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MexiRefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44FC18F020BD3B3100E558FC /* MexiRefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MexiRefUITests.swift; sourceTree = "<group>"; };
 		44FC18F220BD3B3100E558FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44FC18FE20BD669600E558FC /* VCTablaFrases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCTablaFrases.swift; sourceTree = "<group>"; };
 		4C4ED437A0B4076AB2720462 /* Pods-MexiRefTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MexiRefTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MexiRefTests/Pods-MexiRefTests.release.xcconfig"; sourceTree = "<group>"; };
 		5B80BC1B25CBD2B09439EC25 /* Pods_MexiRef.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MexiRef.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4956AF025E5BE84B173500C /* Pods-MexiRef.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MexiRef.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MexiRef/Pods-MexiRef.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				44FC18D220BD3B2F00E558FC /* ViewController.swift */,
 				44FC18D420BD3B2F00E558FC /* Main.storyboard */,
 				44FC18D720BD3B3100E558FC /* Assets.xcassets */,
+				44FC18FE20BD669600E558FC /* VCTablaFrases.swift */,
 				44FC18D920BD3B3100E558FC /* LaunchScreen.storyboard */,
 				44FC18DC20BD3B3100E558FC /* Info.plist */,
 			);
@@ -459,6 +462,7 @@
 			files = (
 				44FC18D320BD3B2F00E558FC /* ViewController.swift in Sources */,
 				44FC18D120BD3B2F00E558FC /* AppDelegate.swift in Sources */,
+				44FC18FF20BD669600E558FC /* VCTablaFrases.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,7 +639,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86CZ52Y2CQ;
 				INFOPLIST_FILE = MexiRef/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = MexiRef.MexiRef;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -651,7 +658,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86CZ52Y2CQ;
 				INFOPLIST_FILE = MexiRef/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = MexiRef.MexiRef;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -668,7 +678,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86CZ52Y2CQ;
 				INFOPLIST_FILE = MexiRefTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = MexiRef.MexiRefTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -686,7 +700,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86CZ52Y2CQ;
 				INFOPLIST_FILE = MexiRefTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = MexiRef.MexiRefTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -703,7 +721,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86CZ52Y2CQ;
 				INFOPLIST_FILE = MexiRefUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = MexiRef.MexiRefUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -720,7 +742,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86CZ52Y2CQ;
 				INFOPLIST_FILE = MexiRefUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = MexiRef.MexiRefUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
