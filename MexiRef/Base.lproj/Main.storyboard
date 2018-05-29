@@ -10,52 +10,365 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Principal-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MexiRef" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Principal" id="BYZ-38-t0r" customClass="ViewController" customModule="MexiRef" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FBL_img_899n" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oJF-hc-qM7">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ugf-F3-NOA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mnn-XY-eBO">
+                                        <rect key="frame" x="113" y="197" width="127" height="52"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                        <state key="normal" title="COMIDA">
+                                            <color key="titleColor" red="0.9093822949" green="1" blue="0.62200355439999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="7Lq-Py-qvE" kind="show" id="fQN-F7-raR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0Z-zq-y2i">
+                                        <rect key="frame" x="107" y="257" width="160" height="52"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                        <state key="normal" title="PALABRAS">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="h6w-kD-pih" kind="show" id="Bkd-hg-b8D"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ekk-qG-GjA">
+                                        <rect key="frame" x="113" y="119" width="125" height="52"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                        <state key="normal" title="DULCES">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="IAr-7U-4aQ" kind="show" id="kFC-Zw-qeX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7yM-zt-706">
+                                        <rect key="frame" x="107" y="334" width="160" height="52"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                        <state key="normal" title="REFRANES">
+                                            <color key="titleColor" red="0.9093822949" green="1" blue="0.62200355439999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="JSx-tC-nha" kind="show" id="5eo-wh-c5x"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1k9-Tj-bib">
+                                        <rect key="frame" x="158.5" y="581" width="49" height="52"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                        <state key="normal" title="voz">
+                                            <color key="titleColor" red="0.9093822949" green="1" blue="0.62200355439999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="txj-it-nT5">
+                                        <rect key="frame" x="117" y="422" width="118" height="52"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                        <state key="normal" title="FRASES">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="V6D-Y1-u0L" kind="show" id="cvL-8L-KGl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IqF-QL-BST">
+                                        <rect key="frame" x="117" y="496" width="124" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                        <state key="normal" title="MÚSICA">
+                                            <color key="titleColor" red="0.9093822949" green="1" blue="0.62200355439999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="XbS-x8-HoU" kind="show" id="TWE-96-oDH"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="txj-it-nT5" firstAttribute="top" secondItem="7yM-zt-706" secondAttribute="bottom" constant="19" id="2Y3-34-Q3q"/>
+                                    <constraint firstItem="ekk-qG-GjA" firstAttribute="leading" secondItem="mnn-XY-eBO" secondAttribute="leading" id="7fZ-QY-vq7"/>
+                                    <constraint firstItem="mnn-XY-eBO" firstAttribute="top" secondItem="ekk-qG-GjA" secondAttribute="bottom" constant="26" id="JhK-FP-xOJ"/>
+                                    <constraint firstItem="G0Z-zq-y2i" firstAttribute="leading" secondItem="7yM-zt-706" secondAttribute="leading" id="KrA-7X-aj1"/>
+                                    <constraint firstItem="txj-it-nT5" firstAttribute="leading" secondItem="ugf-F3-NOA" secondAttribute="leading" constant="124" id="L2D-Vf-Oct"/>
+                                    <constraint firstItem="ekk-qG-GjA" firstAttribute="top" secondItem="ugf-F3-NOA" secondAttribute="top" constant="119" id="dk6-ka-hei"/>
+                                    <constraint firstItem="txj-it-nT5" firstAttribute="centerX" secondItem="1k9-Tj-bib" secondAttribute="centerX" id="eBY-SO-9Ll"/>
+                                    <constraint firstItem="7yM-zt-706" firstAttribute="top" secondItem="G0Z-zq-y2i" secondAttribute="bottom" constant="25" id="fQ4-Vm-Ev1"/>
+                                    <constraint firstItem="ekk-qG-GjA" firstAttribute="leading" secondItem="ugf-F3-NOA" secondAttribute="leading" constant="113" id="h6h-1H-FGw"/>
+                                    <constraint firstItem="G0Z-zq-y2i" firstAttribute="top" secondItem="mnn-XY-eBO" secondAttribute="bottom" constant="8" symbolic="YES" id="jaU-oH-aqK"/>
+                                    <constraint firstAttribute="bottom" secondItem="1k9-Tj-bib" secondAttribute="bottom" constant="34" id="mUa-fS-dIX"/>
+                                    <constraint firstItem="G0Z-zq-y2i" firstAttribute="centerX" secondItem="ugf-F3-NOA" secondAttribute="centerX" id="tb7-MQ-wtg"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ugf-F3-NOA" secondAttribute="trailing" id="1SH-fy-76R"/>
+                            <constraint firstItem="oJF-hc-qM7" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="FfC-cM-oXJ"/>
+                            <constraint firstItem="ugf-F3-NOA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="GqP-14-pbV"/>
+                            <constraint firstItem="ugf-F3-NOA" firstAttribute="trailing" secondItem="oJF-hc-qM7" secondAttribute="trailing" id="IAg-wD-zsn"/>
+                            <constraint firstItem="oJF-hc-qM7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="McE-vu-V27"/>
+                            <constraint firstItem="oJF-hc-qM7" firstAttribute="leading" secondItem="ugf-F3-NOA" secondAttribute="leading" id="rdr-rU-xvb"/>
+                            <constraint firstItem="oJF-hc-qM7" firstAttribute="bottom" secondItem="ugf-F3-NOA" secondAttribute="bottom" id="wPL-cI-0lr"/>
+                            <constraint firstItem="oJF-hc-qM7" firstAttribute="top" secondItem="ugf-F3-NOA" secondAttribute="top" id="xO7-W7-6XZ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="82" y="461"/>
+            <point key="canvasLocation" x="-546" y="3198"/>
         </scene>
-        <!--Item 2-->
+        <!--Comida-->
         <scene sceneID="OH0-FP-6ni">
             <objects>
-                <viewController id="7Lq-Py-qvE" sceneMemberID="viewController">
+                <viewController id="7Lq-Py-qvE" userLabel="Comida" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qxe-ZN-gQ3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Trajes-tipicos-mexicanos" translatesAutoresizingMaskIntoConstraints="NO" id="AP6-An-U8P">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j3l-qI-2A5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GtG-XX-q5v">
+                                        <rect key="frame" x="8" y="607" width="107" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <state key="normal" title="VOLVER">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="4XK-Yd-cJj"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="45y-gE-XMn"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="jNl-ZQ-vkm"/>
+                    <tabBarItem key="tabBarItem" title="Comida" id="jNl-ZQ-vkm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vrj-KG-hwe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1030" y="863"/>
+            <point key="canvasLocation" x="1029.5999999999999" y="820.83958020989508"/>
         </scene>
-        <!--Item 1-->
+        <!--Palabras-->
+        <scene sceneID="vd5-3j-1oN">
+            <objects>
+                <viewController title="Palabras" id="h6w-kD-pih" userLabel="Palabras" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mwt-Tm-ZiC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mexico-1464150_960_720" translatesAutoresizingMaskIntoConstraints="NO" id="UoQ-Lk-hQP">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3mm-SH-Um5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKq-wh-BOT">
+                                        <rect key="frame" x="8" y="607" width="107" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <state key="normal" title="VOLVER">
+                                            <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="qSO-Jf-3XO"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="afq-di-WSW"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cEy-uj-QFD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1029.5999999999999" y="1501.7991004497753"/>
+        </scene>
+        <!--Refranes-->
+        <scene sceneID="gRQ-xy-MOj">
+            <objects>
+                <viewController title="Refranes" id="JSx-tC-nha" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gcM-KU-Npx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3778691751_0e52e00438_b" translatesAutoresizingMaskIntoConstraints="NO" id="GDi-ml-frs">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="svz-Fg-akl">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rim-Ql-K1t">
+                                        <rect key="frame" x="8" y="607" width="107" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <state key="normal" title="VOLVER">
+                                            <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="iaZ-Z7-C4c"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="gjZ-Sq-Gtg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CGQ-An-GQM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1029.5999999999999" y="2196.2518740629689"/>
+        </scene>
+        <!--Frases-->
+        <scene sceneID="aFA-WA-DDX">
+            <objects>
+                <viewController title="Frases" id="V6D-Y1-u0L" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XIG-mw-lRM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="678838862" translatesAutoresizingMaskIntoConstraints="NO" id="gk1-wy-Biv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6dT-Zk-joy">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvI-fT-BOH">
+                                        <rect key="frame" x="8" y="607" width="107" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <state key="normal" title="VOLVER">
+                                            <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="ihO-Kj-ZZl"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="moo-sr-Kf8"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5j7-xz-0nH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1029.5999999999999" y="2883.5082458770617"/>
+        </scene>
+        <!--Musica-->
+        <scene sceneID="NU3-Vm-bul">
+            <objects>
+                <viewController title="Musica" id="XbS-x8-HoU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MUJ-gP-p5d">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7c941b4827c0ed0b910570f95d92bc25" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="orj-jN-GsO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.10000000000000001" y="0.0" width="0.25" height="0.5"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kZ5-gF-UWq">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JxJ-cL-xPL">
+                                        <rect key="frame" x="8" y="607" width="107" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <state key="normal" title="VOLVER">
+                                            <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="Ldj-nR-naq"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="IZG-9G-SWY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="12m-kJ-ccl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1029.5999999999999" y="3582.4587706146931"/>
+        </scene>
+        <!--Dulces-->
         <scene sceneID="YOf-7C-DuY">
             <objects>
-                <viewController id="IAr-7U-4aQ" sceneMemberID="viewController">
+                <viewController id="IAr-7U-4aQ" userLabel="Dulces" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MRW-a0-yKS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1502488317621" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WmU-cC-jHl">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZLj-mm-G2I">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Li2-j2-LVT">
+                                        <rect key="frame" x="8" y="607" width="107" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <state key="normal" title="VOLVER">
+                                            <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="zhv-8i-LmL"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="TzH-0d-wRJ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="o3N-8J-7b5"/>
+                    <tabBarItem key="tabBarItem" title="Dulces" id="o3N-8J-7b5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S5k-pm-fub" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1031" y="118"/>
+            <point key="canvasLocation" x="1029.5999999999999" y="117.39130434782609"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1502488317621" width="800" height="497"/>
+        <image name="3778691751_0e52e00438_b" width="1024" height="768"/>
+        <image name="678838862" width="497" height="612"/>
+        <image name="7c941b4827c0ed0b910570f95d92bc25" width="1384" height="1384"/>
+        <image name="FBL_img_899n" width="1600" height="981"/>
+        <image name="Trajes-tipicos-mexicanos" width="1920" height="1080"/>
+        <image name="mexico-1464150_960_720" width="960" height="636"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Ldj-nR-naq"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -1,0 +1,6 @@
+framework module Pods_MexiRefTests {
+  umbrella header "Pods-MexiRefTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

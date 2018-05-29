@@ -14,6 +14,9 @@
 		44FC18DB20BD3B3100E558FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44FC18D920BD3B3100E558FC /* LaunchScreen.storyboard */; };
 		44FC18E620BD3B3100E558FC /* MexiRefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FC18E520BD3B3100E558FC /* MexiRefTests.swift */; };
 		44FC18F120BD3B3100E558FC /* MexiRefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FC18F020BD3B3100E558FC /* MexiRefUITests.swift */; };
+		9C7D6B79FEB1461A99C2F4C6 /* Pods_MexiRefUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FDFBB90F8B6A4D15B58D36 /* Pods_MexiRefUITests.framework */; };
+		A8E39DC0E5896D58E3EE3D11 /* Pods_MexiRefTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A9F4BFF92EBB3FE4AADC1D /* Pods_MexiRefTests.framework */; };
+		FD33AA483449EB2A055FD9D1 /* Pods_MexiRef.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B80BC1B25CBD2B09439EC25 /* Pods_MexiRef.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30FDFBB90F8B6A4D15B58D36 /* Pods_MexiRefUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MexiRefUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		329BCFB6E3F00EE6AEDFAA68 /* Pods-MexiRef.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MexiRef.release.xcconfig"; path = "Pods/Target Support Files/Pods-MexiRef/Pods-MexiRef.release.xcconfig"; sourceTree = "<group>"; };
+		354967C9D4AA4663D23D4208 /* Pods-MexiRefTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MexiRefTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MexiRefTests/Pods-MexiRefTests.debug.xcconfig"; sourceTree = "<group>"; };
+		38A9F4BFF92EBB3FE4AADC1D /* Pods_MexiRefTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MexiRefTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44FC18CD20BD3B2F00E558FC /* MexiRef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MexiRef.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44FC18D020BD3B2F00E558FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44FC18D220BD3B2F00E558FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		44FC18EC20BD3B3100E558FC /* MexiRefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MexiRefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44FC18F020BD3B3100E558FC /* MexiRefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MexiRefUITests.swift; sourceTree = "<group>"; };
 		44FC18F220BD3B3100E558FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C4ED437A0B4076AB2720462 /* Pods-MexiRefTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MexiRefTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MexiRefTests/Pods-MexiRefTests.release.xcconfig"; sourceTree = "<group>"; };
+		5B80BC1B25CBD2B09439EC25 /* Pods_MexiRef.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MexiRef.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4956AF025E5BE84B173500C /* Pods-MexiRef.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MexiRef.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MexiRef/Pods-MexiRef.debug.xcconfig"; sourceTree = "<group>"; };
+		E9BC22BA6BFCAB8D11594E18 /* Pods-MexiRefUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MexiRefUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MexiRefUITests/Pods-MexiRefUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDDF360A3A6508EE425EE6D6 /* Pods-MexiRefUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MexiRefUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MexiRefUITests/Pods-MexiRefUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD33AA483449EB2A055FD9D1 /* Pods_MexiRef.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8E39DC0E5896D58E3EE3D11 /* Pods_MexiRefTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C7D6B79FEB1461A99C2F4C6 /* Pods_MexiRefUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F1FEF336CFDD0E601343238 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4956AF025E5BE84B173500C /* Pods-MexiRef.debug.xcconfig */,
+				329BCFB6E3F00EE6AEDFAA68 /* Pods-MexiRef.release.xcconfig */,
+				354967C9D4AA4663D23D4208 /* Pods-MexiRefTests.debug.xcconfig */,
+				4C4ED437A0B4076AB2720462 /* Pods-MexiRefTests.release.xcconfig */,
+				E9BC22BA6BFCAB8D11594E18 /* Pods-MexiRefUITests.debug.xcconfig */,
+				EDDF360A3A6508EE425EE6D6 /* Pods-MexiRefUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		44FC18C420BD3B2F00E558FC = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				44FC18E420BD3B3100E558FC /* MexiRefTests */,
 				44FC18EF20BD3B3100E558FC /* MexiRefUITests */,
 				44FC18CE20BD3B2F00E558FC /* Products */,
+				0F1FEF336CFDD0E601343238 /* Pods */,
+				67FF38F146B9C736BE0862CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = MexiRefUITests;
 			sourceTree = "<group>";
 		};
+		67FF38F146B9C736BE0862CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B80BC1B25CBD2B09439EC25 /* Pods_MexiRef.framework */,
+				38A9F4BFF92EBB3FE4AADC1D /* Pods_MexiRefTests.framework */,
+				30FDFBB90F8B6A4D15B58D36 /* Pods_MexiRefUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44FC18F520BD3B3100E558FC /* Build configuration list for PBXNativeTarget "MexiRef" */;
 			buildPhases = (
+				188227E8570B24FE03C1C913 /* [CP] Check Pods Manifest.lock */,
 				44FC18C920BD3B2F00E558FC /* Sources */,
 				44FC18CA20BD3B2F00E558FC /* Frameworks */,
 				44FC18CB20BD3B2F00E558FC /* Resources */,
+				FD7865150B2FC0E2A5F3E3F3 /* [CP] Embed Pods Frameworks */,
+				1661C73D6EEBF6C1DDBF228B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44FC18F820BD3B3100E558FC /* Build configuration list for PBXNativeTarget "MexiRefTests" */;
 			buildPhases = (
+				82A6E9DE23A188BC23FA7703 /* [CP] Check Pods Manifest.lock */,
 				44FC18DD20BD3B3100E558FC /* Sources */,
 				44FC18DE20BD3B3100E558FC /* Frameworks */,
 				44FC18DF20BD3B3100E558FC /* Resources */,
+				D4F4DF38F0BDB19D08BD66BC /* [CP] Embed Pods Frameworks */,
+				D7A4E38DB72D3ED06A59C8B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44FC18FB20BD3B3100E558FC /* Build configuration list for PBXNativeTarget "MexiRefUITests" */;
 			buildPhases = (
+				A4E6607A142AF1ECF1E95361 /* [CP] Check Pods Manifest.lock */,
 				44FC18E820BD3B3100E558FC /* Sources */,
 				44FC18E920BD3B3100E558FC /* Frameworks */,
 				44FC18EA20BD3B3100E558FC /* Resources */,
+				B172B37DE2CE0E0688FEC744 /* [CP] Embed Pods Frameworks */,
+				F459048D2CFB23400C957E5B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +299,158 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1661C73D6EEBF6C1DDBF228B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MexiRef/Pods-MexiRef-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		188227E8570B24FE03C1C913 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MexiRef-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82A6E9DE23A188BC23FA7703 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MexiRefTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4E6607A142AF1ECF1E95361 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MexiRefUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B172B37DE2CE0E0688FEC744 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MexiRefUITests/Pods-MexiRefUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4F4DF38F0BDB19D08BD66BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MexiRefTests/Pods-MexiRefTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7A4E38DB72D3ED06A59C8B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MexiRefTests/Pods-MexiRefTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F459048D2CFB23400C957E5B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MexiRefUITests/Pods-MexiRefUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD7865150B2FC0E2A5F3E3F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MexiRef/Pods-MexiRef-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MexiRef/Pods-MexiRef-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		44FC18C920BD3B2F00E558FC /* Sources */ = {
@@ -428,15 +629,13 @@
 		};
 		44FC18F620BD3B3100E558FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4956AF025E5BE84B173500C /* Pods-MexiRef.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86CZ52Y2CQ;
 				INFOPLIST_FILE = MexiRef/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MexiRef.MexiRef;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -446,15 +645,13 @@
 		};
 		44FC18F720BD3B3100E558FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 329BCFB6E3F00EE6AEDFAA68 /* Pods-MexiRef.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86CZ52Y2CQ;
 				INFOPLIST_FILE = MexiRef/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MexiRef.MexiRef;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -464,17 +661,14 @@
 		};
 		44FC18F920BD3B3100E558FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 354967C9D4AA4663D23D4208 /* Pods-MexiRefTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86CZ52Y2CQ;
 				INFOPLIST_FILE = MexiRefTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MexiRef.MexiRefTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -485,17 +679,14 @@
 		};
 		44FC18FA20BD3B3100E558FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C4ED437A0B4076AB2720462 /* Pods-MexiRefTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86CZ52Y2CQ;
 				INFOPLIST_FILE = MexiRefTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MexiRef.MexiRefTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -506,16 +697,13 @@
 		};
 		44FC18FC20BD3B3100E558FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9BC22BA6BFCAB8D11594E18 /* Pods-MexiRefUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86CZ52Y2CQ;
 				INFOPLIST_FILE = MexiRefUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MexiRef.MexiRefUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -526,16 +714,13 @@
 		};
 		44FC18FD20BD3B3100E558FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDDF360A3A6508EE425EE6D6 /* Pods-MexiRefUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86CZ52Y2CQ;
 				INFOPLIST_FILE = MexiRefUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MexiRef.MexiRefUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
