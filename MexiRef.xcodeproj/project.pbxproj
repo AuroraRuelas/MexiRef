@@ -11,6 +11,9 @@
 		4472ADDC20C135FE003B2AA4 /* TVCELL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472ADDB20C135FE003B2AA4 /* TVCELL.swift */; };
 		4472ADDE20C13671003B2AA4 /* DataHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472ADDD20C13671003B2AA4 /* DataHolder.swift */; };
 		4492588820C69A2E001B8DA2 /* TCELLFR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4492588720C69A2E001B8DA2 /* TCELLFR.swift */; };
+		44949B8B20CFCCF10022EDC9 /* VCTablasPalabras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44949B8A20CFCCF10022EDC9 /* VCTablasPalabras.swift */; };
+		44949B8D20CFCE2E0022EDC9 /* TPAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44949B8C20CFCE2E0022EDC9 /* TPAL.swift */; };
+		44949B8F20CFCED70022EDC9 /* TVCELLPAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44949B8E20CFCED70022EDC9 /* TVCELLPAL.swift */; };
 		44F7ACB720CFA82F003882CF /* TVCELLREF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F7ACB620CFA82F003882CF /* TVCELLREF.swift */; };
 		44F7ACB920CFAA59003882CF /* TREF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F7ACB820CFAA59003882CF /* TREF.swift */; };
 		44F7ACBB20CFAB33003882CF /* VCTablaRefranes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F7ACBA20CFAB33003882CF /* VCTablaRefranes.swift */; };
@@ -54,6 +57,9 @@
 		4472ADDB20C135FE003B2AA4 /* TVCELL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCELL.swift; sourceTree = "<group>"; };
 		4472ADDD20C13671003B2AA4 /* DataHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHolder.swift; sourceTree = "<group>"; };
 		4492588720C69A2E001B8DA2 /* TCELLFR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCELLFR.swift; sourceTree = "<group>"; };
+		44949B8A20CFCCF10022EDC9 /* VCTablasPalabras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCTablasPalabras.swift; sourceTree = "<group>"; };
+		44949B8C20CFCE2E0022EDC9 /* TPAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPAL.swift; sourceTree = "<group>"; };
+		44949B8E20CFCED70022EDC9 /* TVCELLPAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCELLPAL.swift; sourceTree = "<group>"; };
 		44F7ACB620CFA82F003882CF /* TVCELLREF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCELLREF.swift; sourceTree = "<group>"; };
 		44F7ACB820CFAA59003882CF /* TREF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TREF.swift; sourceTree = "<group>"; };
 		44F7ACBA20CFAB33003882CF /* VCTablaRefranes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCTablaRefranes.swift; sourceTree = "<group>"; };
@@ -157,7 +163,10 @@
 				4472ADDD20C13671003B2AA4 /* DataHolder.swift */,
 				44F7ACBA20CFAB33003882CF /* VCTablaRefranes.swift */,
 				4472ADDB20C135FE003B2AA4 /* TVCELL.swift */,
+				44949B8A20CFCCF10022EDC9 /* VCTablasPalabras.swift */,
+				44949B8E20CFCED70022EDC9 /* TVCELLPAL.swift */,
 				44F7ACB820CFAA59003882CF /* TREF.swift */,
+				44949B8C20CFCE2E0022EDC9 /* TPAL.swift */,
 				4492588720C69A2E001B8DA2 /* TCELLFR.swift */,
 				44FC18DC20BD3B3100E558FC /* Info.plist */,
 			);
@@ -504,12 +513,15 @@
 				44FC18D320BD3B2F00E558FC /* ViewController.swift in Sources */,
 				44F7ACB720CFA82F003882CF /* TVCELLREF.swift in Sources */,
 				4472ADDE20C13671003B2AA4 /* DataHolder.swift in Sources */,
+				44949B8B20CFCCF10022EDC9 /* VCTablasPalabras.swift in Sources */,
 				44F7ACBB20CFAB33003882CF /* VCTablaRefranes.swift in Sources */,
 				4492588820C69A2E001B8DA2 /* TCELLFR.swift in Sources */,
+				44949B8F20CFCED70022EDC9 /* TVCELLPAL.swift in Sources */,
 				44F7ACB920CFAA59003882CF /* TREF.swift in Sources */,
 				44FC18D120BD3B2F00E558FC /* AppDelegate.swift in Sources */,
 				4472ADDA20C12959003B2AA4 /* TPALFRA.swift in Sources */,
 				44FC18FF20BD669600E558FC /* VCTablaFrases.swift in Sources */,
+				44949B8D20CFCE2E0022EDC9 /* TPAL.swift in Sources */,
 				4472ADDC20C135FE003B2AA4 /* TVCELL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
