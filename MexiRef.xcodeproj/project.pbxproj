@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4472ADDA20C12959003B2AA4 /* TPALFRA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472ADD920C12959003B2AA4 /* TPALFRA.swift */; };
+		4472ADDC20C135FE003B2AA4 /* TVCELL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472ADDB20C135FE003B2AA4 /* TVCELL.swift */; };
+		4472ADDE20C13671003B2AA4 /* DataHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472ADDD20C13671003B2AA4 /* DataHolder.swift */; };
+		4492588820C69A2E001B8DA2 /* TCELLFR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4492588720C69A2E001B8DA2 /* TCELLFR.swift */; };
+		44F7ACB720CFA82F003882CF /* TVCELLREF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F7ACB620CFA82F003882CF /* TVCELLREF.swift */; };
+		44F7ACB920CFAA59003882CF /* TREF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F7ACB820CFAA59003882CF /* TREF.swift */; };
+		44F7ACBB20CFAB33003882CF /* VCTablaRefranes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F7ACBA20CFAB33003882CF /* VCTablaRefranes.swift */; };
+		44F7ACBF20CFBA8C003882CF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44F7ACBE20CFBA8C003882CF /* GoogleService-Info.plist */; };
 		44FC18D120BD3B2F00E558FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FC18D020BD3B2F00E558FC /* AppDelegate.swift */; };
 		44FC18D320BD3B2F00E558FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FC18D220BD3B2F00E558FC /* ViewController.swift */; };
 		44FC18D620BD3B2F00E558FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44FC18D420BD3B2F00E558FC /* Main.storyboard */; };
@@ -42,6 +50,14 @@
 		329BCFB6E3F00EE6AEDFAA68 /* Pods-MexiRef.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MexiRef.release.xcconfig"; path = "Pods/Target Support Files/Pods-MexiRef/Pods-MexiRef.release.xcconfig"; sourceTree = "<group>"; };
 		354967C9D4AA4663D23D4208 /* Pods-MexiRefTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MexiRefTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MexiRefTests/Pods-MexiRefTests.debug.xcconfig"; sourceTree = "<group>"; };
 		38A9F4BFF92EBB3FE4AADC1D /* Pods_MexiRefTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MexiRefTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4472ADD920C12959003B2AA4 /* TPALFRA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPALFRA.swift; sourceTree = "<group>"; };
+		4472ADDB20C135FE003B2AA4 /* TVCELL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCELL.swift; sourceTree = "<group>"; };
+		4472ADDD20C13671003B2AA4 /* DataHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHolder.swift; sourceTree = "<group>"; };
+		4492588720C69A2E001B8DA2 /* TCELLFR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCELLFR.swift; sourceTree = "<group>"; };
+		44F7ACB620CFA82F003882CF /* TVCELLREF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCELLREF.swift; sourceTree = "<group>"; };
+		44F7ACB820CFAA59003882CF /* TREF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TREF.swift; sourceTree = "<group>"; };
+		44F7ACBA20CFAB33003882CF /* VCTablaRefranes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCTablaRefranes.swift; sourceTree = "<group>"; };
+		44F7ACBE20CFBA8C003882CF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "MexiRef/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		44FC18CD20BD3B2F00E558FC /* MexiRef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MexiRef.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44FC18D020BD3B2F00E558FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44FC18D220BD3B2F00E558FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +123,7 @@
 		44FC18C420BD3B2F00E558FC = {
 			isa = PBXGroup;
 			children = (
+				44F7ACBE20CFBA8C003882CF /* GoogleService-Info.plist */,
 				44FC18CF20BD3B2F00E558FC /* MexiRef */,
 				44FC18E420BD3B3100E558FC /* MexiRefTests */,
 				44FC18EF20BD3B3100E558FC /* MexiRefUITests */,
@@ -134,7 +151,14 @@
 				44FC18D420BD3B2F00E558FC /* Main.storyboard */,
 				44FC18D720BD3B3100E558FC /* Assets.xcassets */,
 				44FC18FE20BD669600E558FC /* VCTablaFrases.swift */,
+				4472ADD920C12959003B2AA4 /* TPALFRA.swift */,
 				44FC18D920BD3B3100E558FC /* LaunchScreen.storyboard */,
+				44F7ACB620CFA82F003882CF /* TVCELLREF.swift */,
+				4472ADDD20C13671003B2AA4 /* DataHolder.swift */,
+				44F7ACBA20CFAB33003882CF /* VCTablaRefranes.swift */,
+				4472ADDB20C135FE003B2AA4 /* TVCELL.swift */,
+				44F7ACB820CFAA59003882CF /* TREF.swift */,
+				4492588720C69A2E001B8DA2 /* TCELLFR.swift */,
 				44FC18DC20BD3B3100E558FC /* Info.plist */,
 			);
 			path = MexiRef;
@@ -282,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44FC18DB20BD3B3100E558FC /* LaunchScreen.storyboard in Resources */,
+				44F7ACBF20CFBA8C003882CF /* GoogleService-Info.plist in Resources */,
 				44FC18D820BD3B3100E558FC /* Assets.xcassets in Resources */,
 				44FC18D620BD3B2F00E558FC /* Main.storyboard in Resources */,
 			);
@@ -440,12 +465,28 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MexiRef/Pods-MexiRef-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,8 +502,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				44FC18D320BD3B2F00E558FC /* ViewController.swift in Sources */,
+				44F7ACB720CFA82F003882CF /* TVCELLREF.swift in Sources */,
+				4472ADDE20C13671003B2AA4 /* DataHolder.swift in Sources */,
+				44F7ACBB20CFAB33003882CF /* VCTablaRefranes.swift in Sources */,
+				4492588820C69A2E001B8DA2 /* TCELLFR.swift in Sources */,
+				44F7ACB920CFAA59003882CF /* TREF.swift in Sources */,
 				44FC18D120BD3B2F00E558FC /* AppDelegate.swift in Sources */,
+				4472ADDA20C12959003B2AA4 /* TPALFRA.swift in Sources */,
 				44FC18FF20BD669600E558FC /* VCTablaFrases.swift in Sources */,
+				4472ADDC20C135FE003B2AA4 /* TVCELL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,7 +691,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = MexiRef.MexiRef;
+				PRODUCT_BUNDLE_IDENTIFIER = MexiReff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -662,7 +710,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = MexiRef.MexiRef;
+				PRODUCT_BUNDLE_IDENTIFIER = MexiReff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

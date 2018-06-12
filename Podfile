@@ -6,7 +6,12 @@ target 'MexiRef' do
   use_frameworks!
 
   # Pods for MexiRef
-
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Database'
+  
   target 'MexiRefTests' do
     inherit! :search_paths
     # Pods for testing
@@ -16,5 +21,5 @@ target 'MexiRef' do
     inherit! :search_paths
     # Pods for testing
   end
-pod 'Firebase/Core'
+
 end
