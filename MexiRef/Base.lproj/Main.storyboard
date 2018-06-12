@@ -130,7 +130,7 @@
         <!--Comida-->
         <scene sceneID="OH0-FP-6ni">
             <objects>
-                <viewController id="7Lq-Py-qvE" userLabel="Comida" sceneMemberID="viewController">
+                <viewController id="7Lq-Py-qvE" userLabel="Comida" customClass="VCColleccionComida" customModule="MexiRef" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qxe-ZN-gQ3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -165,7 +165,7 @@
                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="6Js-ms-GdK">
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CeldaComida" id="6Js-ms-GdK" customClass="CELLCOMIDA" customModule="MexiRef" customModuleProvider="target">
                                                 <rect key="frame" x="46" y="0.0" width="237" height="238"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -186,8 +186,16 @@
                                                     </subviews>
                                                 </view>
                                                 <color key="backgroundColor" white="1" alpha="0.3628686179577465" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <outlet property="imageC" destination="TfD-Ph-Dd4" id="7CJ-l9-bIh"/>
+                                                    <outlet property="lblComida" destination="V06-B0-sNl" id="sZn-wG-u9l"/>
+                                                </connections>
                                             </collectionViewCell>
                                         </cells>
+                                        <connections>
+                                            <outlet property="dataSource" destination="7Lq-Py-qvE" id="Q6t-QO-ik9"/>
+                                            <outlet property="delegate" destination="7Lq-Py-qvE" id="QZt-mX-yQZ"/>
+                                        </connections>
                                     </collectionView>
                                 </subviews>
                             </view>
@@ -196,6 +204,9 @@
                         <viewLayoutGuide key="safeArea" id="45y-gE-XMn"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Comida" id="jNl-ZQ-vkm"/>
+                    <connections>
+                        <outlet property="colPrincipal" destination="NJK-mr-yIq" id="nhe-BP-HWS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vrj-KG-hwe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -542,7 +553,7 @@
         <!--Dulces-->
         <scene sceneID="YOf-7C-DuY">
             <objects>
-                <viewController id="IAr-7U-4aQ" userLabel="Dulces" sceneMemberID="viewController">
+                <viewController id="IAr-7U-4aQ" userLabel="Dulces" customClass="VCColeccionDulces" customModule="MexiRef" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MRW-a0-yKS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -577,7 +588,7 @@
                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="bku-LJ-Ncy">
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CeldaDulces" id="bku-LJ-Ncy" customClass="CELLDULCES" customModule="MexiRef" customModuleProvider="target">
                                                 <rect key="frame" x="46" y="0.0" width="237" height="238"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -598,8 +609,16 @@
                                                     </subviews>
                                                 </view>
                                                 <color key="backgroundColor" white="1" alpha="0.36286861799999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <outlet property="imageD" destination="I7n-iR-GC4" id="XU8-Ci-jVw"/>
+                                                    <outlet property="lblDulce" destination="XBR-If-zTb" id="ixk-u0-568"/>
+                                                </connections>
                                             </collectionViewCell>
                                         </cells>
+                                        <connections>
+                                            <outlet property="dataSource" destination="IAr-7U-4aQ" id="oQC-tQ-O1O"/>
+                                            <outlet property="delegate" destination="IAr-7U-4aQ" id="MTx-zf-IQ4"/>
+                                        </connections>
                                     </collectionView>
                                 </subviews>
                             </view>
@@ -608,6 +627,9 @@
                         <viewLayoutGuide key="safeArea" id="TzH-0d-wRJ"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Dulces" id="o3N-8J-7b5"/>
+                    <connections>
+                        <outlet property="COLDulces" destination="XoE-HP-9D2" id="xVB-2y-zgB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S5k-pm-fub" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -624,6 +646,6 @@
         <image name="mexico-1464150_960_720" width="960" height="636"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="qSO-Jf-3XO"/>
+        <segue reference="zhv-8i-LmL"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4472ADDA20C12959003B2AA4 /* TPALFRA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472ADD920C12959003B2AA4 /* TPALFRA.swift */; };
-		4472ADDC20C135FE003B2AA4 /* TVCELL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472ADDB20C135FE003B2AA4 /* TVCELL.swift */; };
 		4472ADDE20C13671003B2AA4 /* DataHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472ADDD20C13671003B2AA4 /* DataHolder.swift */; };
 		4492588820C69A2E001B8DA2 /* TCELLFR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4492588720C69A2E001B8DA2 /* TCELLFR.swift */; };
 		44949B8B20CFCCF10022EDC9 /* VCTablasPalabras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44949B8A20CFCCF10022EDC9 /* VCTablasPalabras.swift */; };
@@ -16,6 +15,10 @@
 		44949B8F20CFCED70022EDC9 /* TVCELLPAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44949B8E20CFCED70022EDC9 /* TVCELLPAL.swift */; };
 		44949B9120CFDAFC0022EDC9 /* COLCO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44949B9020CFDAFC0022EDC9 /* COLCO.swift */; };
 		44949B9320CFDBBB0022EDC9 /* COLDUL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44949B9220CFDBBB0022EDC9 /* COLDUL.swift */; };
+		44D24CE020D00BA900DD9E81 /* CELLCOMIDA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D24CDF20D00BA900DD9E81 /* CELLCOMIDA.swift */; };
+		44D24CE220D00D9D00DD9E81 /* CELLDULCES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D24CE120D00D9D00DD9E81 /* CELLDULCES.swift */; };
+		44D24CE420D012C500DD9E81 /* VCColleccionComida.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D24CE320D012C500DD9E81 /* VCColleccionComida.swift */; };
+		44D24CE620D017A200DD9E81 /* VCColeccionDulces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D24CE520D017A200DD9E81 /* VCColeccionDulces.swift */; };
 		44F7ACB720CFA82F003882CF /* TVCELLREF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F7ACB620CFA82F003882CF /* TVCELLREF.swift */; };
 		44F7ACB920CFAA59003882CF /* TREF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F7ACB820CFAA59003882CF /* TREF.swift */; };
 		44F7ACBB20CFAB33003882CF /* VCTablaRefranes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F7ACBA20CFAB33003882CF /* VCTablaRefranes.swift */; };
@@ -56,7 +59,6 @@
 		354967C9D4AA4663D23D4208 /* Pods-MexiRefTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MexiRefTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MexiRefTests/Pods-MexiRefTests.debug.xcconfig"; sourceTree = "<group>"; };
 		38A9F4BFF92EBB3FE4AADC1D /* Pods_MexiRefTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MexiRefTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4472ADD920C12959003B2AA4 /* TPALFRA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPALFRA.swift; sourceTree = "<group>"; };
-		4472ADDB20C135FE003B2AA4 /* TVCELL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCELL.swift; sourceTree = "<group>"; };
 		4472ADDD20C13671003B2AA4 /* DataHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHolder.swift; sourceTree = "<group>"; };
 		4492588720C69A2E001B8DA2 /* TCELLFR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCELLFR.swift; sourceTree = "<group>"; };
 		44949B8A20CFCCF10022EDC9 /* VCTablasPalabras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCTablasPalabras.swift; sourceTree = "<group>"; };
@@ -64,6 +66,10 @@
 		44949B8E20CFCED70022EDC9 /* TVCELLPAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCELLPAL.swift; sourceTree = "<group>"; };
 		44949B9020CFDAFC0022EDC9 /* COLCO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLCO.swift; sourceTree = "<group>"; };
 		44949B9220CFDBBB0022EDC9 /* COLDUL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COLDUL.swift; sourceTree = "<group>"; };
+		44D24CDF20D00BA900DD9E81 /* CELLCOMIDA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CELLCOMIDA.swift; sourceTree = "<group>"; };
+		44D24CE120D00D9D00DD9E81 /* CELLDULCES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CELLDULCES.swift; sourceTree = "<group>"; };
+		44D24CE320D012C500DD9E81 /* VCColleccionComida.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCColleccionComida.swift; sourceTree = "<group>"; };
+		44D24CE520D017A200DD9E81 /* VCColeccionDulces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCColeccionDulces.swift; sourceTree = "<group>"; };
 		44F7ACB620CFA82F003882CF /* TVCELLREF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCELLREF.swift; sourceTree = "<group>"; };
 		44F7ACB820CFAA59003882CF /* TREF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TREF.swift; sourceTree = "<group>"; };
 		44F7ACBA20CFAB33003882CF /* VCTablaRefranes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCTablaRefranes.swift; sourceTree = "<group>"; };
@@ -166,9 +172,12 @@
 				44F7ACB620CFA82F003882CF /* TVCELLREF.swift */,
 				4472ADDD20C13671003B2AA4 /* DataHolder.swift */,
 				44F7ACBA20CFAB33003882CF /* VCTablaRefranes.swift */,
-				4472ADDB20C135FE003B2AA4 /* TVCELL.swift */,
 				44949B8A20CFCCF10022EDC9 /* VCTablasPalabras.swift */,
+				44D24CE320D012C500DD9E81 /* VCColleccionComida.swift */,
+				44D24CE520D017A200DD9E81 /* VCColeccionDulces.swift */,
+				44D24CDF20D00BA900DD9E81 /* CELLCOMIDA.swift */,
 				44949B8E20CFCED70022EDC9 /* TVCELLPAL.swift */,
+				44D24CE120D00D9D00DD9E81 /* CELLDULCES.swift */,
 				44F7ACB820CFAA59003882CF /* TREF.swift */,
 				44949B9020CFDAFC0022EDC9 /* COLCO.swift */,
 				44949B9220CFDBBB0022EDC9 /* COLDUL.swift */,
@@ -518,6 +527,7 @@
 			files = (
 				44949B9320CFDBBB0022EDC9 /* COLDUL.swift in Sources */,
 				44949B9120CFDAFC0022EDC9 /* COLCO.swift in Sources */,
+				44D24CE420D012C500DD9E81 /* VCColleccionComida.swift in Sources */,
 				44FC18D320BD3B2F00E558FC /* ViewController.swift in Sources */,
 				44F7ACB720CFA82F003882CF /* TVCELLREF.swift in Sources */,
 				4472ADDE20C13671003B2AA4 /* DataHolder.swift in Sources */,
@@ -527,10 +537,12 @@
 				44949B8F20CFCED70022EDC9 /* TVCELLPAL.swift in Sources */,
 				44F7ACB920CFAA59003882CF /* TREF.swift in Sources */,
 				44FC18D120BD3B2F00E558FC /* AppDelegate.swift in Sources */,
+				44D24CE620D017A200DD9E81 /* VCColeccionDulces.swift in Sources */,
+				44D24CE220D00D9D00DD9E81 /* CELLDULCES.swift in Sources */,
 				4472ADDA20C12959003B2AA4 /* TPALFRA.swift in Sources */,
 				44FC18FF20BD669600E558FC /* VCTablaFrases.swift in Sources */,
 				44949B8D20CFCE2E0022EDC9 /* TPAL.swift in Sources */,
-				4472ADDC20C135FE003B2AA4 /* TVCELL.swift in Sources */,
+				44D24CE020D00BA900DD9E81 /* CELLCOMIDA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
