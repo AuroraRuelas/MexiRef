@@ -81,6 +81,7 @@ class DataHolder: NSObject {
     
 }
 
+
 @objc protocol DataHolderDelegate{
     func descargarColeccionListas()
     func descargarColeccion()

@@ -45,7 +45,7 @@ class VCColeccionDulces: UIViewController ,UICollectionViewDelegate,UICollection
                         print("\(document.documentID) => \(document.data())")
                     }
                     print("--->",self.arNombre.count)
-                    self.COLDulces?.reloadData()
+                    self.COLDulces?.reloadData()   
                     
                 }
             }
